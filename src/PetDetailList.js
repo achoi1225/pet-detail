@@ -5,9 +5,9 @@ const PetDetailList = props =>
   <>
     <h2>Details</h2>
     <dl>
-        <PetInformationItem name="Name" value={props.pet.name} /> 
-        <PetInformationItem name="Age" value={props.pet.age} /> 
-        <PetInformationItem name="Type" value={props.pet.type} /> 
+        <PetInformationItem name="Name" value={props.pet.name} />
+        <PetInformationItem name="Age" value={props.pet.age} />
+        <PetInformationItem name="Type" value={props.pet.PetType.type} />
     </dl>
   </>
 ;
@@ -17,4 +17,3 @@ PetDetailList.defaultProps = {
 }
 
 export default PetDetailList;
-
